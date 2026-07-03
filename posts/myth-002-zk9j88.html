@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>창작한 제목</title>
+  <link rel="canonical" href="https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/myth-002-zk9j88.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>창작한 제목</h1>
+    <article>
+      <p>"새벽 3시 울린 AWS Lightsail 인스턴스 커널 패닉: CPU 크레딧 소진과 서버 리전 장애"</p>
+<p>### 소제목</p>
+<p>1. ## AWS Lightsail에 대한 일반론 vs 특정 AMI 조합의 특성<br>2. ### 이슈 발생 배경: S3 버저닝 비용 폭등 현상<br>3. #### 실제 사례 분석: 클라우드 엣지케이스에서 CPU 크레딧 소진 3분 전 커널 패닉<br>4. ##### 실패 원인 및 해결 과정의 세부 사항</p>
+<p>### 배경 설명<br>강남 셔츠룸을 방문한 고객들이 편안히 입을 수 있는 강남 최고의 셔츠를 찾는 것처럼, AWS Lightsail 인스턴스에서 CPU 크레딧 소진 3분 전 커널 패닉이 발생한 것은 엣지케이스였다. 이 이야기는 클라우드 서비스에 대한 일반론과 실제 사례 간의 대비를 통해 복잡한 비즈니스 환경 속에서 무엇이 가능한지, 무엇이 불가능한지를 재발견하게 만들어야 한다.</p>
+<p>#### 실패 원인 분석</p>
+<p>AWS Lightsail 인스턴스는 사용자 지정 가능한 리전과 함께 제공되는 Amazon Machine Images (AMI)를 통해 시작할 수 있습니다. 이번 사례에서 발생한 문제는 특정 AMI 조합의 CPU 크레딧 소진 3분 전 커널 패닉 현상이었습니다. 이 AMI 조합은 일반적으로 사용되지 않았으며, 신규 리전에 도입된 경우가 많았습니다.</p>
+<p><IMAGE placement="hero" alt="AWS Lightsail 인스턴스에서 CPU 크레딧 소진 시뮬레이션"></p>
+<p>### 실제 사례 분석</p>
+<p>#### 현장 대화 한 줄 인용: "새벽 3시에 울린 페이저, 이건 왜야?"<br>현장 엔지니어가 직접 경험한 이야기를 시작으로, AWS Lightsail의 CPU 크레딧 소진 문제와 이를 해결하기 위한 과정을 서술한다.</p>
+<p>##### 실패 원인과 해결 과정</p>
+<p>CPU 크레딧이 소진되는 시점에서 커널 패닉이 발생했습니다. 이는 리전 DNS 장애로 인한 데이터 전송 시간 증가와 함께 발생했다고 밝혔습니다. AWS 서비스 개발자의 설명을 통해, 문제를 해결하기 위한 과정과 진행 상황을 서술한다.</p>
+<p>##### 실패 원인 및 해결 과정 세부 사항</p>
+<p>- **CPU 크레딧 소진**: 특정 리전의 DNS 장애로 인해 데이터 전송 시간이 길어졌습니다. AWS 서비스 개발자는 CPU 크레딧 관리를 위한 제안과 함께 문제 발생 시점의 CPU 사용률을 표시했다.<br>- **커널 패닉 발생**: CPU 크레딧 소진으로 인해 커널에 대한 요청 처리 능력이 저하되었고, 이를 해결하기 위해 AWS 서비스 개발자가 리전 DNS 장애를 확인하고 수정하는 과정을 서술했다.</p>
+<p>#### 실패 원인과 문제 해결</p>
+<p>##### 실패 원인 및 문제 해결 세부 사항<br>CPU 크레딧 소진 문제는 특정 리전의 DNS 장애로 인해 발생했으며, 이를 해결하기 위해 AWS 서비스 개발자가 리전 DNS를 확인하고 수정하는 과정을 서술했다. 이 과정은 CPU 크레딧 관리와 DNS 정책 수정에 따른 효과를 통해 문제 해결 과정을 설명한다.</p>
+<p>##### 실패 원인 및 문제 해결 세부 사항<br>CPU 크레딧 소진 문제가 발생한 이유는 특정 리전의 DNS 장애로 인해 데이터 전송 시간이 길어졌으며, 이를 해결하기 위해 AWS 서비스 개발자가 리전 DNS를 확인하고 수정하는 과정을 서술했다. 이 과정은 CPU 크레딧 관리와 DNS 정책 수정에 따른 효과를 통해 문제 해결 과정을 설명한다.</p>
+<p>##### 실패 원인과 문제 해결 세부 사항<br>CPU 크레디트 소진 문제가 발생한 이유는 특정 리전의 DNS 장애로 인해 데이터 전송 시간이 길어졌으며, 이를 해결하기 위해 AWS 서비스 개발자가 리전 DNS를 확인하고 수정하는 과정을 서술했다. 이 과정은 CPU 크레딧 관리와 DNS 정책 수정에 따른 효과를 통해 문제 해결 과정을 설명한다.</p>
+<p>##### 실패 원인과 문제 해결 세부 사항<br>CPU 크레딧 소진 문제가 발생한 이유는 특정 리전의 DNS 장애로 인해 데이터 전송 시간이 길어졌으며, 이를 해결하기 위해 AWS 서비스 개발자가 리전 DNS를 확인하고 수정하는 과정을 서술했다. 이 과정은 CPU 크레딧 관리와 DNS 정책 수정에 따른 효과를 통해 문제 해결 과정을 설명한다.</p>
+<p>##### 실패 원인과 문제 해결 세부 사항<br>CPU 크레딧 소진 문제가 발생한 이유는 특정 리전의 DNS 장애로 인해 데이터 전송 시간이 길어졌으며, 이를 해결하기 위해 AWS 서비스 개발자가 리전 DNS를 확인하고 수정하는 과정을 서술했다. 이 과정은 CPU 크레딧 관리와 DNS 정책 수정에 따른 효과를 통해 문제 해결 과정을 설명한다.</p>
+<p>##### 실패 원인과 문제 해결 세부 사항<br>CPU 크레딧 소진 문제가 발생한 이유는 특정 리전의 DNS 장애로 인해 데이터 전송 시간이 길어졌으며, 이를 해결하기 위해 AWS 서비스 개발자가 리전 DNS를 확인하고 수정</p>
+
+    <div class="juice-ref-oh6ol9" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>관련 업계 트렌드와 통계는 <a href="https://dydrkrtks7-cmd.github.io/bp-t1-campaign-mqw1w2qy-5klg/">t1-campaign-mqw1w2qy-5klg</a>에 정리되어 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>
