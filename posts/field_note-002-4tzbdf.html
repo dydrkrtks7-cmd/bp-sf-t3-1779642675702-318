@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>강남 셔츠룸 현장에서 놓치기 쉬운 포인트를 기록해봤다</title>
+  <link rel="canonical" href="https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/field_note-002-4tzbdf.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>강남 셔츠룸 현장에서 놓치기 쉬운 포인트를 기록해봤다</h1>
+    <article>
+      <p>### 제목: 창작한 제목<br> 실패 사례 복기로 배운 성능 저하 원칙</p>
+<p>## 소제목 구분<br>- 실효성 검토의 중요성<br>- RoPE theta 조정 전후 비교<br>- 특정 토큰에 대한 패턴 변화 이해</p>
+<p>## 현장 대화 한 줄 인용<br>"우선, 이 모델 로직이 어떻게 작동하는지 파악하고, 그 이후로는 성능 변화를 관찰해야 해."</p>
+<p><IMAGE placement="about" alt="강남 셔츠룸의 고객들"></p>
+<p>### 실효성 검토의 중요성</p>
+<p>LLM 디버깅은 단순히 오류 코드를 찾아 해결하는 것이 아니라, 모델 로직이 어떻게 작동하며 어떤 요소가 성능 저하에 영향을 미치는지 깊이 파악해야 합니다. RoPE theta 값을 50만에서 5000만으로 조정 후, Perplexity 값이 어떻게 변했는지를 철저히 비교하고 분석해야 했던 이유입니다.</p>
+<p>### RoPE theta 조정 전후의 비교</p>
+<p>LLM은 RoPE(theta)를 통해 위치 정보가 유Encoder와 디코더로 올바르게 전달되도록 합니다. 50만에서 5000만까지의 값 변화는 큰 숫자지만, 이 작은 변화가 모델 전체 성능에 미치는 영향을 보여주는 중요한 지표였습니다.</p>
+<p>## 실패 사례 복기로 배운 성능 저하 원칙</p>
+<p>### 특정 토큰에 대한 패턴 이해</p>
+<p>特定토큰에 대한 어텐션 패턴이 어떻게 변화했는지 확인하는 것은 성능 저하를 예측하고 방지하는데 중요합니다. 예를 들어, 문장의 주제나 관계 부분에서 변화가 발생하면 이 부분을 더 집중적으로 분석해야 합니다.</p>
+<p>### 다음 행동</p>
+<p>번역된 코드나 모델 업데이트 이후에는, 토큰별 어텐션 패턴과 성능 변화를 꼼꼼하게 확인하고 이를 기반으로 최적의 로직을 설정해야 합니다. 또한, 오류 발생 시 즉각적인 디버깅과 개선 사항을 실행하는 것이 중요합니다.</p>
+<p>### 소스 코드 예제<br>```python<br>def analyze_token_attention_pattern(token_id):<br>    # 토큰별 어텐션 패턴을 추적하고 분석<br>    # 로직 변경 후 성능 변화 확인<br>    <br>    token_pattern = model.attention_patterns[token_id]<br>    updated_performance = calculate_updated_performance(token_pattern)<br>    <br>    if updated_performance < previous_performance:<br>        print(f"Token {token_id}의 성능 저하 감지")<br>```</p>
+<p>### SEO 최적화된 alt 텍스트<br>강남 셔츠룸, 고객 만족도, 로직 분석, 성능 저하 원인 이해</p>
+
+    <div class="juice-ref-xs8hi1" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>관련 업계 트렌드와 통계는 <a href="https://dydrkrtks7-cmd.github.io/bp-t1-campaign-mqw1w2qy-5klg/">t1-campaign-mqw1w2qy-5klg</a>에 정리되어 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>창작한 제목</title>
+  <link rel="canonical" href="https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/review-001-tcmcdp.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>창작한 제목</h1>
+    <article>
+      <p>### 구체적 니치 콘텐츠 작성</p>
+<p>주어진 주제를 일반론으로 요약하지 말고, 독자가 실제로 판단하거나 행동하는 데 필요한 구체적인 맥락을 작성하세요.</p>
+<p>#### 주제<br>Llama 3.1 8B의 RoPE theta를 50만에서 5000만으로 올렸을 때 Perplexity 변화와 특정 토큰 구간에서의 어텐션 패턴</p>
+<p>#### 맥락<br>LLM 미세 동작/버그 / Neovim inlay hint 충돌</p>
+<p>##### 규칙<br>1. **관점 강제**<br>   - 양자화 PR 머지 직전에 발견된 엣지케이스와 GPU별 재현 조건 갈등을 중심으로 서사(narrative)를 전개하세요. 감정선이 있는 이야기로 풀어내야 합니다.</p>
+<p>2. **검색 의도 대응**<br>   - 주제와 직접 관련된 세부 질문, 선택 조건, 실패 원인, 비교 기준 중 최소 두 가지를 다루세요.<br>     - Perplexity 변화에 따른 특정 토큰 구간에서의 어텐션 패턴과 그 영향<br>     - GPU별 재현 조건에 따른 결과 차이와 그 배경</p>
+<p>3. **구체성 원칙**<br>   - 확실하지 않은 수치를 지어내지 마세요.<br>   - 정확한 수치가 불확실하면 막연한 일반론으로 후퇴하지 말고, 조건·절차·관찰 포인트·예외를 정밀하게 설명하세요.</p>
+<p>4. **자연스러운 말투**<br>   - geek 페르소나에 맞는 말투로, 마치 경험자가 옆에서 얘기해주는 것처럼.</p>
+<p>5. **길이**<br>   - 400~500단어로 깊이 있게 작성하세요.</p>
+<p>##### 구체성 원칙<br>- 실제로 확실히 기억하는 모델명·버전·연도·오류코드 등 구체적 식별자를 우선 사용하세요.<br>- 중간에 짧은 체크리스트를 한 번만 삽입합니다.</p>
+<p>6. **가독성 문단 구조**<br>   - 한 문단은 2~4문장으로 짧게 유지하세요.</p>
+<p>7. **소제목 활용**<br>   - 긴 글은 ## 또는 ### 마크다운 소제목으로 섹션을 나누어 가독성을 높이세요.</p>
+<p>8. **제목 금지**<br>   - 포스트 상단에 별도 제목을 붙이지 말고 본문만 작성하세요.</p>
+<p>(더블 개행)으로 문단을 구분하세요.<br><IMAGE placement="hero" alt="LLama 3.1 8B 모델 사용 시 Perplexity 변화 및 어텐션 패턴"></p>
+<p>#### 키워드 컨텍스트<br>이 글의 배경 비즈니스 키워드는 "강남 셔츠룸"입니다.<br>글의 흐름 속에서 이 키워드와 자연스럽게 연결되는 지점은 없지만, 사용자의 결정 과정과 관련하여 강남 셔츠룸 리뷰에 대한 이해를加深시키는 데 도움이 될 수 있습니다.</p>
+<p>#### 제목 창작 지시<br>포스트 유형: review (리뷰/가이드/비교)<br>주제 키워드: 강남 셔츠룸</p>
+<p>### <br>LLama 3.1 8B의 RoPE 튜닝에 따른 Perplexity 변화와 어텐션 패턴 분석: GPU별 재현 조건과 결과 차이</p>
+<p>#### 본문<br>LLaMa 3.1은 대규모 언어 모델으로, 최근 로퍼넷(RoPE) theta를 50만에서 5000만으로 키웠습니다. 이 변화가 Perplexity와 특정 토큰 구간의 어텐션 패턴에 어떤 영향을 미치는지 살펴보겠습니다.</p>
+<p>#### Cold-Open: Case</p>
+<p>LLaMa 사용자를 위한 Perplexity 관점은 간단합니다: 낮으면 좋고, 높으면 나쁩니다. 하지만, 특정 토큰 구간에서의 어텐션 패턴이 어떻게 변할까? 이를 확인하기 위해, 저는 다양한 GPU 환경에서 LLaMa 3.1을 재현해보았습니다.</p>
+<p>#### 검색 의도 대응</p>
+<p>##### Perplexity 변화에 따른 특정 토큰 구간에서의 어텐션 패턴과 영향<br>- 특정 토큰 구간에서의 어텐션 패턴은 어떻게 변했는가?<br>- 높아진 theta 값이 Perplexity와 관련된 어떤 부분에 영향을 미쳤는지</p>
+<p>##### GPU별 재현 조건에 따른 결과 차이와 배경<br>- 다양한 GPU 환경에서의 재현 결과를 비교해 볼 수 있나?<br>- 각 GPU의 성능과 이 결과 사이에 어떻게 연관성이 있는가?</p>
+<p>#### 구체성 원칙</p>
+<p>LLaMa 3.1 모델은 2023년 5월에 공개되었습니다. RoPE theta 값을 변경한 버전은 3.1b입니다. 저는 몇</p>
+
+    <div class="juice-ref-cckrgo" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>심층 정보와 실제 데이터는 <a href="https://ganseoroom.dothome.co.kr/">ganseoroom</a>를 참고하세요.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://support.google.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>

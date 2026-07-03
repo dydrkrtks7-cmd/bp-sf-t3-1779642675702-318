@@ -5,8 +5,8 @@
   <link>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318</link>
   <description><![CDATA[AI트렌드 - 강남 셔츠룸 관련 최신 소식 및 가이드]]></description>
   <language>ko</language>
-  <pubDate>Fri, 03 Jul 2026 05:31:10 GMT</pubDate>
-  <lastBuildDate>Fri, 03 Jul 2026 05:31:10 GMT</lastBuildDate>
+  <pubDate>Fri, 03 Jul 2026 06:13:17 GMT</pubDate>
+  <lastBuildDate>Fri, 03 Jul 2026 06:13:17 GMT</lastBuildDate>
   <atom:link href="https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
@@ -42,6 +42,13 @@
       <link>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/compare-002-10x2eda.html</link>
       <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/compare-002-10x2eda.html</guid>
       <description><![CDATA[### 제목: 창작한 제목: **"강남 셔츠룸의 비밀: AWS Lightsail 인스턴스에서 CPU 크레딧 소진 3분 전 커널 패닉 현장 조사"** #### 소제목1. AWS Lightsail의 CPU 크레딧과 문제 발생 배경2. 특정 AMI 조합에 따른 막대한 비용 ]]></description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[강남 셔츠룸 현장에서 놓치기 쉬운 포인트를 기록해봤다]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/field_note-002-4tzbdf.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/field_note-002-4tzbdf.html</guid>
+      <description><![CDATA[### 제목: 창작한 제목 실패 사례 복기로 배운 성능 저하 원칙 ## 소제목 구분- 실효성 검토의 중요성- RoPE theta 조정 전후 비교- 특정 토큰에 대한 패턴 변화 이해 ## 현장 대화 한 줄 인용"우선, 이 모델 로직이 어떻게 작동하는지 파악하고, 그 이후]]></description>
       <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -91,6 +98,13 @@
       <link>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/qa-002-vpav4e.html</link>
       <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/qa-002-vpav4e.html</guid>
       <description><![CDATA[### 포스트 DNA d537f72c제목: 창작한 제목: "Cloudflare Cache Reserve 손실 사례: 예산과 시간, 위험을 비교하는 비즈니스 판단" ## 강남 셔츠룸 소개강남 셔츠룸은 직장인을 위한 고급 셔츠를 제공하는 엣지케이스입니다. 클라우드 서비스와]]></description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[창작한 제목]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/review-001-tcmcdp.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-318/posts/review-001-tcmcdp.html</guid>
+      <description><![CDATA[### 구체적 니치 콘텐츠 작성 주어진 주제를 일반론으로 요약하지 말고, 독자가 실제로 판단하거나 행동하는 데 필요한 구체적인 맥락을 작성하세요. #### 주제Llama 3.1 8B의 RoPE theta를 50만에서 5000만으로 올렸을 때 Perplexity 변화와 ]]></description>
       <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
